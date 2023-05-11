@@ -7,13 +7,13 @@ import java.io.File;
 
 @Service
 public interface SocksFileService {
-//    boolean saveToFile(String json);
-//
-//    String readFromFile();
-//
-//    File getDataFile();
-//
-//    boolean cleanDataFile();
-//
-//    boolean uploadDataFile(MultipartFile file);
+    boolean saveToFile(String json);
+
+    String readFromFile();
+
+    File getDataFile();
+
+    boolean cleanDataFile();
+
+    boolean uploadDataFile(MultipartFile file);
 }
