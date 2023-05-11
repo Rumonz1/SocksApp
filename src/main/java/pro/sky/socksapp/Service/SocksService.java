@@ -5,6 +5,7 @@ import pro.sky.socksapp.Model.Socks;
 
 @Service
 public interface SocksService {
+
     Socks editSocks(Socks socks, long quantity);
 
     long getSocksByParameters(Socks.Color color, Socks.Size size, int cottonMin, int cottonMax);
